@@ -13,7 +13,7 @@ class UserNumberTest {
     void exceptionTest(String userInput) {
         UserNumber userNumber = new UserNumber(MAX_LENGTH);
         Assertions.assertThrows(
-            IllegalArgumentException.class, () -> userNumber.setNumbers(userInput)
+                IllegalArgumentException.class, () -> userNumber.setNumbers(userInput)
         );
     }
 
@@ -21,7 +21,7 @@ class UserNumberTest {
     void successTest() {
         UserNumber userNumber = new UserNumber(MAX_LENGTH);
         Assertions.assertDoesNotThrow(
-            () -> userNumber.setNumbers("012")
+                () -> userNumber.setNumbers("012")
         );
     }
 }

@@ -20,7 +20,7 @@ class GameDataTest {
     void allStrikeTest() {
         final MockedStatic<Randoms> mock = mockStatic(Randoms.class);
         mock.when(() -> Randoms.pickNumberInRange(anyInt(), anyInt()))
-            .thenReturn(1, 2, 3);
+                .thenReturn(1, 2, 3);
 
         GameData gameData = new GameData();
         gameData.reset();
@@ -34,7 +34,7 @@ class GameDataTest {
     void nothingTest() {
         final MockedStatic<Randoms> mock = mockStatic(Randoms.class);
         mock.when(() -> Randoms.pickNumberInRange(anyInt(), anyInt()))
-            .thenReturn(1, 2, 3);
+                .thenReturn(1, 2, 3);
 
         GameData gameData = new GameData();
         gameData.reset();
@@ -48,7 +48,7 @@ class GameDataTest {
     void strikeAndBallTest() {
         final MockedStatic<Randoms> mock = mockStatic(Randoms.class);
         mock.when(() -> Randoms.pickNumberInRange(anyInt(), anyInt()))
-            .thenReturn(1, 2, 3);
+                .thenReturn(1, 2, 3);
 
         GameData gameData = new GameData();
         gameData.reset();

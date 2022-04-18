@@ -15,10 +15,10 @@ class RandomGenerateNumberTest {
     @Test
     void typeTest() {
         Assertions.assertDoesNotThrow(
-            () -> {
-                UserNumber userNumber = new UserNumber(MAX_LENGTH);
-                userNumber.setNumbers("012");
-            }
+                () -> {
+                    UserNumber userNumber = new UserNumber(MAX_LENGTH);
+                    userNumber.setNumbers("012");
+                }
         );
 
     }

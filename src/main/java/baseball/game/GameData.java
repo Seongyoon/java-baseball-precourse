@@ -1,10 +1,9 @@
 package baseball.game;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import baseball.game.number.RandomGenerateNumber;
 import baseball.game.number.UserNumber;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GameData {
     private static final int INPUT_MAX_LENGTH = 3;

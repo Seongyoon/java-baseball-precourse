@@ -1,10 +1,9 @@
 package baseball.game.number;
 
+import baseball.game.validator.NumberValidator;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import baseball.game.validator.NumberValidator;
 
 public class UserNumber {
     private final int maxLength;

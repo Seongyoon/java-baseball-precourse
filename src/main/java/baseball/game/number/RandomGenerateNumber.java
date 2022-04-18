@@ -1,9 +1,8 @@
 package baseball.game.number;
 
+import camp.nextstep.edu.missionutils.Randoms;
 import java.util.ArrayList;
 import java.util.List;
-
-import camp.nextstep.edu.missionutils.Randoms;
 
 public class RandomGenerateNumber {
     private final List<String> numbers;

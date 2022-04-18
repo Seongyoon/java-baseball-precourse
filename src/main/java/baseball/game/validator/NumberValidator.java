@@ -6,7 +6,8 @@ import java.util.List;
 import java.util.Set;
 
 public class NumberValidator {
-    private NumberValidator() {}
+    private NumberValidator() {
+    }
 
     public static void validateLength(String input, int length) {
         if (input.length() != length) {
